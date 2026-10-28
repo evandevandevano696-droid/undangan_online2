@@ -1,0 +1,24 @@
+/* KUSTOMISASI STYLE TAMBAHAN */
+
+/* Background Hero Section (Bisa diganti dengan link foto Anda) */
+.hero-bg {
+    background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Animasi Fade In sederhana saat halaman dimuat */
+.animate-fade-in {
+    animation: fadeIn 1.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
